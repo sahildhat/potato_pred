@@ -1,0 +1,9 @@
+opencv-python 
+numpy
+streamlit
+tensorflow
+pillow
+matplotlib
+requests
+reportlab
+matplotlib
