@@ -6,8 +6,6 @@ import json
 import matplotlib.pyplot as plt
 from PIL import Image
 import requests
-from reportlab.pdfgen import canvas
-import io
 
 # Load saved model
 model = tf.keras.models.load_model('potato_disease_model.h5')
@@ -109,22 +107,6 @@ if uploaded_file or image_data:
                         st.markdown(f"- {item}")
                 else:
                     st.markdown(value.strip())
-    
-    # Downloadable PDF Report
-    def generate_pdf(disease, confidence, treatment):
-        buffer = io.BytesIO()
-        pdf = canvas.Canvas(buffer)
-        pdf.drawString(100, 800, "Potato Leaf Disease Report")
-        pdf.drawString(100, 780, f"Predicted Disease: {disease}")
-        pdf.drawString(100, 760, f"Confidence: {confidence:.2f}%")
-        pdf.drawString(100, 740, f"Recommended Treatment: {treatment}")
-        pdf.save()
-        buffer.seek(0)
-        return buffer
-    
-    if st.button("Download Report"):
-        pdf_data = generate_pdf(predicted_class, confidence, treatments.get(predicted_class, "N/A"))
-        st.download_button(label="Download PDF", data=pdf_data, file_name="potato_disease_report.pdf")
     
     # Weather and Disease Risk Analysis
     API_KEY = "937e2835a845f822f2f64128e0eb75b6"  # Replace with your API key
