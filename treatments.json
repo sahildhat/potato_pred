@@ -1,0 +1,104 @@
+{
+    "Early_Blight": {
+      "Cause": "Caused by the fungus *Alternaria solani*, which affects potatoes, tomatoes, and other members of the Solanaceae family.",
+      "Symptoms": [
+        "Dark brown circular lesions with concentric rings (target-board pattern) on older leaves.",
+        "Yellowing and defoliation of leaves.",
+        "Stem lesions appearing as dark, elongated blotches.",
+        "Tuber blight: sunken, leathery, dark skin lesions that enlarge over time."
+      ],
+      "Spread": [
+        "Spores are airborne and spread from leaf to leaf or plant to plant by wind.",
+        "Overwinters in soil, plant debris, or infected tubers."
+      ],
+      "Favorable Conditions": [
+        "Warm temperatures ranging from 15°C to 27°C.",
+        "High humidity or prolonged leaf wetness."
+      ],
+      "Care and Management": {
+        "Fungicides": [
+          {
+            "name": "Mancozeb 75 WP",
+            "image": "https://dixondalefarms.com/wp-content/uploads/2020/02/MancozebfrontWeb-600x600.jpg",
+            "usage": "Apply once every 7-10 days during the growing season.",
+            "dosage": "2g per liter of water."
+          },
+          {
+            "name": "Chlorothalonil",
+            "image": "https://imgen3.guidechem.com/img/answer/2023/9/10/1694357147922388.jpg",
+            "usage": "Apply preventatively during wet conditions.",
+            "dosage": "1.5g per liter of water."
+          }
+        ],
+        "Cultural Practices": [
+          "Remove and destroy infected leaves and plant debris to reduce inoculum sources.",
+          "Avoid overhead watering to minimize leaf wetness duration.",
+          "Implement crop rotation with non-host crops to prevent fungal buildup in soil.",
+          "Ensure proper plant spacing to promote air circulation and reduce humidity around foliage."
+        ]
+      }
+    },
+    "Late_Blight": {
+      "Cause": "Caused by *Phytophthora infestans*, a water mold that affects potatoes and tomatoes.",
+      "Symptoms": [
+        "Pale-green to brown-black water-soaked lesions on leaves and stems.",
+        "White-gray fuzzy growth on infected tissue under humid conditions.",
+        "Tomato fruits develop sunken, golden-brown spots with firm texture.",
+        "Potato tubers show reddish-brown discoloration under the skin."
+      ],
+      "Spread": [
+        "Produces wind-borne spores that can travel long distances.",
+        "Requires living tissue to survive; overwinters in infected tubers or plant debris."
+      ],
+      "Favorable Conditions": [
+        "Cool temperatures between 10°C to 20°C.",
+        "High humidity or prolonged periods of leaf wetness."
+      ],
+      "Care and Management": {
+        "Fungicides": [
+          {
+            "name": "Copper-based Fungicides",
+            "image": "https://m.media-amazon.com/images/I/411gjKfzWgS._SL1016_.jpg",
+            "usage": "Apply during initial outbreaks or as a preventive measure.",
+            "dosage": "Follow manufacturer's instructions."
+          },
+          {
+            "name": "Systemic Fungicides",
+            "description": "Protects developing leaves and tubers by moving within the plant.",
+            "image": "https://johnsonsgarden.com/cdn/shop/files/ferti-lome-liquid-systemic-fungicide-16oz-11377_1800x1800.jpg?v=1739550895",
+            "usage": "Apply as per guidelines when conditions favor disease development."
+          }
+        ],
+        "Cultural Practices": [
+          "Remove and destroy infected plant parts immediately to prevent disease spread.",
+          "Improve air circulation by pruning dense foliage and ensuring proper plant spacing.",
+          "Avoid overhead watering; use drip irrigation to minimize leaf wetness.",
+          "Plant resistant varieties when available."
+        ]
+      }
+    },
+    "Healthy": {
+      "General Principles": [
+        "Select disease-resistant varieties whenever possible to reduce susceptibility.",
+        "Provide adequate spacing between plants to promote air circulation and reduce humidity.",
+        "Ensure proper soil drainage to prevent waterlogged conditions that favor root diseases.",
+        "Monitor plants regularly for early signs of pests or diseases to enable timely intervention."
+      ],
+      "Nutrient Management": [
+        "Conduct soil tests to determine nutrient deficiencies and amend soil accordingly.",
+        "Apply balanced fertilizers containing nitrogen, phosphorus, and potassium (NPK) as per plant requirements.",
+        "Incorporate organic matter into the soil to improve structure, fertility, and microbial activity."
+      ],
+      "Water Management": [
+        "Water deeply and infrequently to encourage deep root growth, rather than shallow, frequent watering.",
+        "Water early in the day to allow foliage to dry before nightfall, reducing disease risk.",
+        "Avoid overhead watering, especially in humid conditions, to minimize leaf wetness duration."
+      ],
+      "Sanitation Practices": [
+        "Remove and dispose of plant debris regularly to reduce sources of infection.",
+        "Clean and sanitize gardening tools to prevent disease transmission between plants.",
+        "Control weeds, which can harbor pests and diseases, through regular weeding or mulching."
+      ]
+    }
+  }
+  
