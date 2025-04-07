@@ -8,7 +8,7 @@ from PIL import Image
 import requests
 
 # Load saved model
-model = tf.keras.models.load_model('potato_disease_model.h5')
+model = tf.keras.models.load_model('new_potato_final.h5')
 
 # Load treatment data
 with open('treatments.json') as f:
